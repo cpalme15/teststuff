@@ -20,8 +20,10 @@ d.	JTextComponent
 e.	Preceded by a super.paintComponent() call and followed by a repaint() method call.
 13.	 
 a.	Must insert new before JButton. Like this: JButton buttonClear = JButton(“CLEAR”);
-b.	JTextField is not an instantiated method of B, so B cannot call it. Remove the B. portion of this statement.
+b.	the parameters are in the wrong order it takes string first and # of columns second.
 c.	No Error, but not a good idea to make the name a keyword.
+d.      the second statment is wrong because a[1,1] is not the proper way to call it it should be a[1][1].
+e.      B has to be capitilized it in JMenuBar which it is not in this example.
 14.	B
 15.	sorted [blue, red, white, black]
 16.	for(int i=0;i<arr.length;i++)
